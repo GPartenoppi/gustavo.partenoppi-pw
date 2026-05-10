@@ -1,0 +1,21 @@
+/*reset basico*/
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+#resultado{
+    font-size: 35px;
+    background-color: white;
+}
+.result{
+    font-size: 25px;
+}

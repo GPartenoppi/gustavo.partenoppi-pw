@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Minha Calculador</h1>
+    <header><h1>Calculadora</h1></header>
     Primeiro número//base<br />
     <input type="number" id="n1"<br><br /><br>
     Segundo número//altura<br />
-    <input type="number" id="n2"<br><br />
+    <input type="number" id="n2"<br><br /><br>
     <button onclick="somar()">Somar</button>
     <button onclick="subtrair()">Subtrair</button>
      <button onclick="multiplicar()">Multiplicar</button>
     <button onclick="dividir()">Dividir</button>
-    <br />
+    <br /><br>
     <button onclick="areat()">Area do triangulo</button>
-    <button onclick="areaq()">Area do quadrado</button><br>
-    <button onclick="idade()">Idade</button><br>
-    O reesultado é <span id="resultado"></span>
+    <button onclick="areaq()">Area do quadrado</button><br><br>
+    <button onclick="idade()">Idade</button><br><br>
+   <div class="result"> O resultado é: </div><br><span id="resultado"></span>
 
     <script src="js/calculadora.js"></script>
 </body>
