@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header><h1>Calculadora</h1></header>
+    Primeiro número//base<br />
+    <input type="number" id="n1"<br><br /><br>
+    Segundo número//altura<br />
+    <input type="number" id="n2"<br><br /><br>
+    <div class="botão">
+    <button onclick="somar()">Somar</button>
+    <button onclick="subtrair()">Subtrair</button>
+     <button onclick="multiplicar()">Multiplicar</button>
+    <button onclick="dividir()">Dividir</button>
+    <br /><br>
+    <button onclick="areat()">Area do triangulo</button>
+    <button onclick="areaq()">Area do quadrado</button><br><br>
+    <button onclick="retirar()">Retirar 10%</button>
+    <button onclick="lucro()">Lucrar 15%</button>
+    <button onclick="desconto()">Desconto de 3%</button>
+    <button onclick="boas()">Desconto surpresa</button>
+    <br><br> <button onclick="idade()">Idade</button>
+    <button onclick="parimpar()">Par ou impar</button><br><br>
+    </div>
+   <div class="result"> O resultado é: </div><br><span id="resultado"></span><br>
+
+    <script src="js/calculadora.js"></script>
+</body>
+</html>
