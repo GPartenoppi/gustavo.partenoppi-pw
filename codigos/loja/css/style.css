@@ -1,0 +1,27 @@
+table, th, td {
+  border:1px solid black;}
+
+  header{
+   font-size: 40px;
+   text-align: center;
+   border: 10px dotted lightblue;
+   border-radius: 5%;
+  }
+
+  .carrinho{
+    width: 5%;
+  }
+
+  .motorola{
+    width: 15%;
+  }
+
+ td {
+    text-align: center;     
+    vertical-align: middle;  
+    width: 125%;
+}
+
+td .motorola {
+    display: inline-block;
+}
