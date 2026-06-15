@@ -23,5 +23,15 @@ table, th, td {
 }
 
 td .motorola {
-    display: inline-block;
+  width: 350px;
+  height: 350px;
+}
+
+td .tv{
+  width: 350px;
+  height: 350px;
+}
+td .note{
+  width: 350px;
+  height: 350px;
 }
