@@ -22,32 +22,38 @@
         <td><img src="imagens/motorola.png" class="motorola"></td>
         <td>Celular Motorola</td>
         <td>R$ 1000</td>
-        <td><button onclick="diminuirmotorola()">-</button>
+        <td><button onclick="diminuirmotorola()" class="dimi">-</button>
             <span id="motorolaq">0</span>
-        <button onclick="somarmotorola()">+</button>
+        <button onclick="somarmotorola()" class="add">+</button>
         </td>
-        <td>R$ <span id="valormotorola"></span></td>
+        <td>R$ <span id="valormotorola">0</span></td>
     </tr>
     <tr>
         <td><img src="imagens/tv.png" class="tv"></td>
         <td>Televisão Samsung</td>
         <td>R$ 2500</td>
-        <td><button onclick="diminuirtv()">-</button>
+        <td><button onclick="diminuirtv()" class="dimi">-</button>
             <span id="tvq">0</span>
-        <button onclick="somartv()">+</button>
+        <button onclick="somartv()" class="add">+</button>
     </td>
-        <td>R$ <span id="valortv"></span></td>
+        <td>R$ <span id="valortv">0</span></td>
     </tr>
         <tr>
         <td><img src="imagens/note.png" class="note"></td>
         <td>Notebook Apple</td>
         <td>R$ 1500</td>
-        <td><button onclick="diminuirnote()">-</button>
+        <td><button onclick="diminuirnote()" class="dimi">-</button>
             <span id="noteq">0</span>
-        <button onclick="somarnote()">+</button>
+        <button onclick="somarnote()" class="add">+</button>
     </td>
-        <td>R$ <span id="valornote"></span></td>
+        <td>R$ <span id="valornote">0</span></td>
     </tr>
+   
+    </table>
+    <table class="tab">
+        <tr>
+            <td id="subb">Subtotal: R$ <span id="subtotal">0</span></td>
+         </tr>
     </table>
     
 </body>

@@ -10,6 +10,7 @@ function somarmotorola() {
 
     document.getElementById("motorolaq").innerHTML = motorola;
     document.getElementById("valormotorola").innerHTML = motorola * precoMotorola;
+    document.getElementById("subtotal").innerHTML = motorola * precoMotorola + tv * precotv + note * preconote
 }
 
 function diminuirmotorola() {
@@ -18,6 +19,7 @@ function diminuirmotorola() {
 
         document.getElementById("motorolaq").innerHTML = motorola;
         document.getElementById("valormotorola").innerHTML = motorola * precoMotorola;
+        document.getElementById("subtotal").innerHTML = motorola * precoMotorola + tv * precotv + note * preconote
     }
 }
 
@@ -26,6 +28,7 @@ function somartv(){
 
     document.getElementById("tvq").innerHTML = tv;
     document.getElementById("valortv").innerHTML= tv * precotv;
+    document.getElementById("subtotal").innerHTML = motorola * precoMotorola + tv * precotv + note * preconote
 }
 
 function diminuirtv() {
@@ -34,6 +37,7 @@ function diminuirtv() {
 
         document.getElementById("tvq").innerHTML = tv;
         document.getElementById("valortv").innerHTML = tv * precotv;
+        document.getElementById("subtotal").innerHTML = motorola * precoMotorola + tv * precotv + note * preconote
     }
 }
 
@@ -42,6 +46,7 @@ function somarnote(){
 
     document.getElementById("noteq").innerHTML = note
     document.getElementById("valornote").innerHTML = note * preconote
+    document.getElementById("subtotal").innerHTML = motorola * precoMotorola + tv * precotv + note * preconote
 }
 
 function diminuirnote() {
@@ -50,5 +55,6 @@ function diminuirnote() {
 
         document.getElementById("noteq").innerHTML = note;
         document.getElementById("valornote").innerHTML = note * preconote;
+        document.getElementById("subtotal").innerHTML = motorola * precoMotorola + tv * precotv + note * preconote
     }
 }

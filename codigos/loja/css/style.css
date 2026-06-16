@@ -36,3 +36,19 @@ td .note{
   width: 350px;
   height: 350px;
 }
+
+.subtotal{
+  width: 500px;
+}
+
+.tab{
+  width: 100%;
+}
+
+.dimi{
+  background-color: red;
+}
+
+.add{
+  background-color: green;
+}
