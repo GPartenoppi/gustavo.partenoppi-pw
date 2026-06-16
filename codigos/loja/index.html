@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/loja.js"></script>
 </head>
 
 <body>
-    <header><img src="carrinho.png" class="carrinho">Lojinha da Camargo</header>
+    <header><img src="imagens/carrinho.png" class="carrinho">Lojinha da Camargo</header>
     <table style="width: 100%">
     <tr>
         <th>Imagem</th>
@@ -18,25 +19,34 @@
         <th>Total</th>
     </tr>
     <tr>
-        <td><img src="motorola.png" class="motorola"></td>
+        <td><img src="imagens/motorola.png" class="motorola"></td>
         <td>Celular Motorola</td>
         <td>R$ 1000</td>
-        <td>ds</td>
-        <td>ds</td>
+        <td><button onclick="diminuirmotorola()">-</button>
+            <span id="motorolaq">0</span>
+        <button onclick="somarmotorola()">+</button>
+        </td>
+        <td>R$ <span id="valormotorola"></span></td>
     </tr>
     <tr>
-        <td><img src="tv.png" class="tv"></td>
+        <td><img src="imagens/tv.png" class="tv"></td>
         <td>Televisão Samsung</td>
         <td>R$ 2500</td>
-        <td>ds</td>
-        <td>ds</td>
+        <td><button onclick="diminuirtv()">-</button>
+            <span id="tvq">0</span>
+        <button onclick="somartv()">+</button>
+    </td>
+        <td>R$ <span id="valortv"></span></td>
     </tr>
         <tr>
-        <td><img src="note.png" class="note"></td>
+        <td><img src="imagens/note.png" class="note"></td>
         <td>Notebook Apple</td>
         <td>R$ 1500</td>
-        <td>ds</td>
-        <td>ds</td>
+        <td><button onclick="diminuirnote()">-</button>
+            <span id="noteq">0</span>
+        <button onclick="somarnote()">+</button>
+    </td>
+        <td>R$ <span id="valornote"></span></td>
     </tr>
     </table>
     
